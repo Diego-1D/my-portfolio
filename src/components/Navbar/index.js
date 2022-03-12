@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from 'react-scroll';
 import {
   Container,
   Name,
@@ -9,12 +10,20 @@ import {
 const Navbar = () => {
   return (
     <Container>
-      <Name>Diego Fernandes</Name>
+      <Name>Diego <span style={{ color: '#F8032D' }}>Fernandes</span></Name>
       <Header>
-        <HeaderOption>Home</HeaderOption>
-        <HeaderOption>Sobre</HeaderOption>
-        <HeaderOption>Portfólio</HeaderOption>
-        <HeaderOption>Skill</HeaderOption>
+        <Link to='hero' smooth={true} duration={1000}>
+          <HeaderOption>Home</HeaderOption>
+        </Link>
+        <Link to='about' smooth={true} duration={1000}>
+          <HeaderOption>Sobre</HeaderOption>
+        </Link>
+        <Link to='portfolio' smooth={true} duration={1000}>
+          <HeaderOption>Portfólio</HeaderOption>
+        </Link>
+        <Link to='skills' smooth={true} duration={1000}>
+          <HeaderOption>Skills</HeaderOption>
+        </Link>
       </Header>
     </Container>
   )
