@@ -13,7 +13,7 @@ import {
 
 const Portfolio = () => {
   return (
-    <Container>
+    <Container id='portfolio'>
       <Title>Portfólio</Title>
       <Wrapper>
         {
@@ -22,12 +22,13 @@ const Portfolio = () => {
               <Card key={key}>
                 <Imagem src={index.image} />
                 <Name>{index.name}</Name>
-                {/* <TechnologiesUsedArea>
-                  <TechnologiesUsed src={IconeI} />
-                  <TechnologiesUsed src={IconeII} />
-                  <TechnologiesUsed src={IconeIII} />
-                  <TechnologiesUsed src={IconeIIII} />
-                </TechnologiesUsedArea> */}
+                <TechnologiesUsedArea>
+                  {
+                    index.technoUsed.map(techos=>(
+                      <TechnologiesUsed src={techos}/>
+                    ))
+                  }
+                </TechnologiesUsedArea>
               </Card>
             )
           })

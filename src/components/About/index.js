@@ -12,7 +12,7 @@ import {
 
 const About = () => {
   return (
-    <Container>
+    <Container id='about'>
       <ImageArea>
         <ImageProfile src={ImgProfile}></ImageProfile>
       </ImageArea>

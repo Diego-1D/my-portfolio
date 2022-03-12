@@ -13,7 +13,7 @@ import {
 
 const Hero = () => {
     return (
-        <Container>
+        <Container id='hero'>
             <InfoArea>
                 <Text>Olá, Eu sou um<br />
                     <TextSpan>Desenvolvedor Front-End</TextSpan>
