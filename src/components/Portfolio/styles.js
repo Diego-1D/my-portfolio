@@ -6,7 +6,6 @@ export const Container = styled.section`
     padding: 1.5rem 5rem;
     display: flex;
     flex-direction: column;
-    background: #161E35;
     letter-spacing: 1px;
     gap: 1rem;
 `;
@@ -32,6 +31,7 @@ export const Card = styled.div`
     height: 260px;
     display: flex;
     flex-direction: column;
+    gap: 0.3rem;
 `;
 
 export const Imagem =  styled.img`
@@ -48,10 +48,11 @@ export const Name = styled.h5`
 
 export const TechnologiesUsedArea = styled.div`
     display: flex;
-    gap: 1rem;
+    gap: 1.2rem;
 `;
 
 export const TechnologiesUsed = styled.img`
-    width: 15px;
-    object-fit: cover;
+    width: 17px;
+    filter: grayscale(1);
+    background-color: transparent;
 `;

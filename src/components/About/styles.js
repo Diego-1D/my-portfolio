@@ -5,7 +5,6 @@ export const Container = styled.section`
     padding: 0 5rem;
     display: flex;
     align-items: center;
-    background: #161E35;
     gap: 5rem;
 `;
 

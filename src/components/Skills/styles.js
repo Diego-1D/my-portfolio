@@ -7,7 +7,6 @@ export const Container = styled.section`
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background: #161E35;
     letter-spacing: 1px;
     gap: 4rem;
     

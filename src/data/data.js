@@ -22,66 +22,56 @@ export const Projects = [
         key: 1,
         image: LinkenInImage,
         name: 'Clone do LinkedIn',
-        tecnoUsed: [
-            FirebaseIcon,
+        technoUsed: [
             ReactIcon,
-            HmtlIcon,
-            CssIcon
+            FirebaseIcon,
         ]
     },
     {
         key: 2,
         image: AnimeImage,
         name: 'Anime',
-        tecnoUsed: [
-            FirebaseIcon,
+        technoUsed: [
             ReactIcon,
-            HmtlIcon,
-            CssIcon
+            StyledComponentsIcon
         ]
     },
     {
         key: 3,
         image: TheCocktailImage,
         name: 'The Cocktail',
-        tecnoUsed: [
-            FirebaseIcon,
+        technoUsed: [
             ReactIcon,
-            HmtlIcon,
-            CssIcon
+            StyledComponentsIcon,
         ]
     },
     {
         key: 4,
         image: FinancesControlImage,
         name: 'Finances Control',
-        tecnoUsed: [
-            FirebaseIcon,
+        technoUsed: [
             ReactIcon,
-            HmtlIcon,
-            CssIcon
+            TypeScriptIcon,
+            FirebaseIcon,
+            StyledComponentsIcon
         ]
     },
     {
         key: 5,
         image: IceCreamImage,
         name: 'Menu Ice Cream ',
-        tecnoUsed: [
-            FirebaseIcon,
+        technoUsed: [
             ReactIcon,
-            HmtlIcon,
-            CssIcon
+            StyledComponentsIcon
         ]
     },
     {
         key: 6,
         image: FitSpaImage,
         name: 'Fit Spa',
-        tecnoUsed: [
-            FirebaseIcon,
+        technoUsed: [
             ReactIcon,
-            HmtlIcon,
-            CssIcon
+            StyledComponentsIcon
         ]
     },
 ];
