@@ -25,7 +25,8 @@ export const Projects = [
         technoUsed: [
             ReactIcon,
             FirebaseIcon,
-        ]
+        ],
+        url: 'https://diego-1d.github.io/linkedIn-clone/'
     },
     {
         key: 2,
@@ -34,7 +35,8 @@ export const Projects = [
         technoUsed: [
             ReactIcon,
             StyledComponentsIcon
-        ]
+        ],
+        url: 'https://diego-1d.github.io/anime/'
     },
     {
         key: 3,
@@ -43,7 +45,8 @@ export const Projects = [
         technoUsed: [
             ReactIcon,
             StyledComponentsIcon,
-        ]
+        ],
+        url: 'https://diego-1d.github.io/the-cocktail/'
     },
     {
         key: 4,
@@ -54,7 +57,8 @@ export const Projects = [
             TypeScriptIcon,
             FirebaseIcon,
             StyledComponentsIcon
-        ]
+        ],
+        url: 'https://diego-1d.github.io/finances-control/'
     },
     {
         key: 5,
@@ -63,7 +67,8 @@ export const Projects = [
         technoUsed: [
             ReactIcon,
             StyledComponentsIcon
-        ]
+        ],
+        url: 'https://diego-1d.github.io/menu-icecream/'
     },
     {
         key: 6,
@@ -72,7 +77,8 @@ export const Projects = [
         technoUsed: [
             ReactIcon,
             StyledComponentsIcon
-        ]
+        ],
+        url: 'https://diego-1d.github.io/fit-spa/'
     },
 ];
 
