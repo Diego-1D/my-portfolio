@@ -20,12 +20,14 @@ const Portfolio = () => {
           Projects.map((index, key) => {
             return (
               <Card key={key}>
-                <Imagem src={index.image} />
+                <a href={index.url} target='_blank' rel='noreferrer'>
+                  <Imagem src={index.image} />
+                </a>
                 <Name>{index.name}</Name>
                 <TechnologiesUsedArea>
                   {
-                    index.technoUsed.map(techos=>(
-                      <TechnologiesUsed src={techos}/>
+                    index.technoUsed.map(techos => (
+                      <TechnologiesUsed src={techos} />
                     ))
                   }
                 </TechnologiesUsedArea>
