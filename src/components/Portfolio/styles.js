@@ -3,7 +3,7 @@ import styled from 'styled-components';
 export const Container = styled.section`
     width: 100%;
     height: 100vh;
-    padding: 1.5rem 5rem;
+    padding: 4.3rem 5rem;
     display: flex;
     flex-direction: column;
     letter-spacing: 1px;
@@ -23,32 +23,38 @@ export const Wrapper = styled.div`
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    gap: 3rem;
+    gap: 2rem 4rem;
 `;
 
 export const Card = styled.div`
     width: 300px;
-    height: 260px;
+    height: 250px;
     display: flex;
     flex-direction: column;
-    gap: 0.3rem;
+    border-radius: 3px;
+   
+   &:hover{
+        border: 2px solid #F8032D;
+        cursor: pointer;
+    } 
+       
 `;
 
 export const Imagem =  styled.img`
     width: 100%;
-    height: 200px;
+    height: 185px;
     border-radius: 3px;
 `;
 
 export const Name = styled.h5`
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 300;
     color: #ACABBD;
 `;
 
 export const TechnologiesUsedArea = styled.div`
     display: flex;
-    gap: 1.2rem;
+    gap: 1rem;
 `;
 
 export const TechnologiesUsed = styled.img`

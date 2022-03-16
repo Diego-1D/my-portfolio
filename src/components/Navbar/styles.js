@@ -1,12 +1,15 @@
 import styled from 'styled-components'
 
 export const Container = styled.nav`
-    height: 5rem;
+    width: 100%;
+    height: 4rem;
     padding: 2rem 5rem;
+    position: fixed;
     display: flex;
     align-items: center;
     justify-content: space-between;
     color: #E6E7F4;
+    border-bottom: 2px solid #151D34;
 `;
 
 export const Name = styled.span`
