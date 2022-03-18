@@ -1,24 +1,37 @@
 import styled from 'styled-components';
 
 export const Container = styled.section`
-    height: 100vh;
-    padding: 0 5rem;
-    display: flex;
-    align-items: center;
-    gap: 6rem;
+    width: 100%;
+    min-height: 100vh;
+    height: auto;
+    padding: 4.5rem 5rem;
 `;
 
-export const ImageArea = styled.div``;
+export const Wrapper = styled.div`
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4rem;
+`;
+
+export const AreaImage = styled.div`
+    flex: 1;
+    display: flex;
+    justify-content: center;
+`;
 
 export const ImageProfile = styled.img`
-    width: 350px;
-    object-fit: cover;
+    max-width: 100%;
+    max-height: 420px;
 `;
 
 export const InfoArea = styled.div`
-    width: 43rem;
+    width: 57%;
     text-align: justify;
     letter-spacing: 1px;
+
+    @media screen and (max-width: 1100px){
+        width: 100%;
+    }
 `;
 
 export const Title = styled.h3`
