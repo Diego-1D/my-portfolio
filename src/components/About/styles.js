@@ -2,30 +2,32 @@ import styled from 'styled-components';
 
 export const Container = styled.section`
     width: 100%;
-    min-height: 100vh;
     height: auto;
-    padding: 4.5rem 5rem;
+    padding: 4.5rem 1.5rem;
 `;
 
 export const Wrapper = styled.div`
     display: flex;
     flex-wrap: wrap;
-    gap: 4rem;
+    justify-content:space-around ;
 `;
 
 export const AreaImage = styled.div`
-    flex: 1;
     display: flex;
     justify-content: center;
 `;
 
 export const ImageProfile = styled.img`
-    max-width: 100%;
-    max-height: 420px;
+     width: 350px;
+    object-fit: cover;
+
+    @media screen and (max-width: 669px){
+        width: 250px;
+    }
 `;
 
 export const InfoArea = styled.div`
-    width: 57%;
+    width: 55%;
     text-align: justify;
     letter-spacing: 1px;
 
@@ -35,7 +37,7 @@ export const InfoArea = styled.div`
 `;
 
 export const Title = styled.h3`
-    font-size: 24px;
+    font-size: 1.8em;
     font-weight: bold;
     color: #E6E7F4;
     text-decoration: underline;
@@ -46,7 +48,7 @@ export const Title = styled.h3`
 
 export const InfoSubTitle = styled.div`
     margin-top: 1.2rem;
-    font-size: 20px;
+    font-size: 1.2em;
     letter-spacing: 1px;
     line-height: 2.2rem;
 `;
