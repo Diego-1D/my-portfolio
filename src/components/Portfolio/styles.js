@@ -2,8 +2,9 @@ import styled from 'styled-components';
 
 export const Container = styled.section`
     width: 100%;
-    height: 100vh;
-    padding: 4.5rem 5rem;
+    min-height: 100vh;
+    height: auto;
+    padding: 4.5rem 1.5rem;
     display: flex;
     flex-direction: column;
     letter-spacing: 1px;
@@ -11,7 +12,7 @@ export const Container = styled.section`
 `;
 
 export const Title = styled.h3`
-    font-size: 24px;
+    font-size: 1.8em;
     font-weight: bold;
     color: #E6E7F4;
     text-decoration: underline;
@@ -22,7 +23,9 @@ export const Wrapper = styled.div`
     display: flex;
     flex-wrap: wrap;
     max-width: 1200px;
+    gap: 1.2rem;
     margin: 0 auto;
+
 `;
 
 export const Card = styled.div`
@@ -43,7 +46,7 @@ export const Imagem =  styled.img`
 `;
 
 export const Name = styled.h5`
-    font-size: 18px;
+    font-size: 1.2em;
     font-weight: 300;
     color: #ACABBD;
 `;

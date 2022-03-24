@@ -1,5 +1,6 @@
 import styled from 'styled-components';
 import { Link } from 'react-scroll';
+import { theme } from '../theme/theme';
 
 export const Container = styled.aside`
     width: auto;
@@ -8,10 +9,10 @@ export const Container = styled.aside`
     right: 0;
     top: 0;
     margin-top: 4rem;
-    margin-right: 5rem;
     width: 13rem;
     height: 13rem;
     display: none;
+    background: ${theme.darkblue};
     @media screen and (max-width: 769px){
         display:${({ isOpen }) => (isOpen ? 'flex' : 'none')};
     } 
