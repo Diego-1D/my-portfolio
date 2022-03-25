@@ -1,22 +1,19 @@
 import styled from 'styled-components';
+import { theme } from '../theme/theme';
 
 export const Container = styled.section`
     width: 100%;
-    min-height: 100vh;
     height: auto;
     padding: 4.5rem 1.5rem;
-    display: flex;
-    flex-direction: column;
     letter-spacing: 1px;
-    gap: 1rem;
 `;
 
 export const Title = styled.h3`
     font-size: 1.8em;
     font-weight: bold;
-    color: #E6E7F4;
+    color: ${theme.defaultWhite};
     text-decoration: underline;
-    text-decoration-color: #F8032D;
+    text-decoration-color: ${theme.defaultRed};
 `;
 
 export const Wrapper = styled.div`
@@ -48,7 +45,7 @@ export const Imagem =  styled.img`
 export const Name = styled.h5`
     font-size: 1.2em;
     font-weight: 300;
-    color: #ACABBD;
+    color: ${theme.defaultGrey};
 `;
 
 export const TechnologiesUsedArea = styled.div`
