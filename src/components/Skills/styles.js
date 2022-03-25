@@ -1,8 +1,8 @@
 import styled from 'styled-components';
+import { theme } from '../theme/theme';
 
 export const Container = styled.section`
     width: 100%;
-    min-height: 100vh;
     height: auto;
     padding: 4.5rem 3rem;
     display: flex;
@@ -10,15 +10,14 @@ export const Container = styled.section`
     align-items: center;
     letter-spacing: 1px;
     gap: 3rem;
-    background: #161E35;
 `;
 
 export const Title = styled.h3`
     font-size: 1.8em;
     font-weight: bold;
-    color: #E6E7F4;
+    color: ${theme.defaultWhite};
     text-decoration: underline;
-    text-decoration-color: #F8032D;
+    text-decoration-color: ${theme.defaultRed};
 `;
 
 export const Wrapper = styled.div`
@@ -51,6 +50,6 @@ export const TechnologiesIcon = styled.img`
 export const TitleIcon = styled.h5`
     font-size: 1em;
     font-weight: bold;
-    color: #E6E7F4;
+    color: ${theme.defaultWhite};
     letter-spacing: 1px;
 `;

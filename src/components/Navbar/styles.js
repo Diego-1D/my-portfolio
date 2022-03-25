@@ -11,7 +11,7 @@ export const Container = styled.nav`
     align-items: center;
     justify-content: space-between;
     background: ${theme.darkblue};
-    color: #E6E7F4;
+    color: ${theme.defaultWhite};
     border-bottom: 2px solid #151D34;
     z-index: 999;
 `;
@@ -33,7 +33,7 @@ export const HeaderOption = styled.span`
     font-size: 1em;
 
     &:hover{
-        color: #F8032D;
+        color: ${theme.defaultRed};
         text-decoration: underline;
         cursor: pointer;
     }

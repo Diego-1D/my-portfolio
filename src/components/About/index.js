@@ -3,11 +3,11 @@ import ImgProfile from '../../Images/profileII.png';
 import {
   Container,
   Wrapper,
+  ImageArea,
   ImageProfile,
   InfoArea,
   Title,
   Info,
-  AreaImage,
   InfoSubTitle,
   SubTitle
 } from './styles';
@@ -16,9 +16,9 @@ const About = () => {
   return (
     <Container id='about'>
       <Wrapper>
-        <AreaImage>
+        <ImageArea>
           <ImageProfile src={ImgProfile} />
-        </AreaImage>
+        </ImageArea>
         <InfoArea>
           <Title>Sobre mim</Title>
           <Info>

@@ -4,8 +4,8 @@ import {
     Container,
     Title,
     Wrapper,
-    TechnologiesIcon,
     AreaIcon,
+    TechnologiesIcon,
     TitleIcon
 } from './styles';
 
