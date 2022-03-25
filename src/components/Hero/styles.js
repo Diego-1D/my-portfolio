@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import { theme } from '../theme/theme';
 
 export const Container = styled.div`
     width: 100%;
@@ -6,15 +7,20 @@ export const Container = styled.div`
     display: flex;
     justify-content: center;
     padding-top: 6rem;
-    color: #ACABBD;
+    color: ${theme.defaultGrey};
 `;
 
 export const Wrapper = styled.div`
     width: 85%;
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: wrap-reverse;
     justify-content: space-around;
     align-items: center;
+
+    @media screen and (max-width: 769px){
+        width: 100%;
+        padding:0 1.5rem;
+    }
 `;
 
 export const InfoArea = styled.div`
@@ -29,7 +35,7 @@ export const Text = styled.label`
 `;
 
 export const TextSpan = styled.strong`
-    color: #E6E7F4;
+    color: ${theme.defaultWhite};
     font-size: 1.2em;
 `;
 
@@ -38,7 +44,7 @@ export const Description = styled.p`
     width: 35rem;
     margin: 1.2rem 0;
 
-    @media screen and (max-width: 1100px){
+    @media screen and (max-width: 1120px){
         width: 100%;
     }
 `;
@@ -51,7 +57,7 @@ export const HireButton = styled.button`
     background: #A41831;
     font-size: 0.895em;
     font-weight: bold;
-    color: #E6E7F4;
+    color: ${theme.defaultWhite};
     letter-spacing: 1px;
 `;
 
@@ -66,7 +72,7 @@ export const ImageProfile = styled.img`
     width: 350px;
     object-fit: cover;
 
-    @media screen and (max-width: 1100px){
+    @media screen and (max-width: 1120px){
         width: 250px;
     }
 `;
