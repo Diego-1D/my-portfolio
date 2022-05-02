@@ -4,7 +4,7 @@ import { theme } from '../theme/theme';
 export const Container = styled.section`
     width: 100%;
     height: auto;
-    padding: 4.5rem 3rem;
+    padding: 2rem 1.5rem;
     display: flex;
     flex-direction: column;
     align-items: center;

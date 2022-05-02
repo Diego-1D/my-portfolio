@@ -4,7 +4,7 @@ import { theme } from '../theme/theme';
 export const Container = styled.section`
     width: 100%;
     height: auto;
-    padding: 4.5rem 1.5rem;
+    padding: 2rem 1.5rem;
     letter-spacing: 1px;
 `;
 
@@ -14,6 +14,11 @@ export const Title = styled.h3`
     color: ${theme.defaultWhite};
     text-decoration: underline;
     text-decoration-color: ${theme.defaultRed};
+
+    @media screen and (max-width: 820px){
+        text-align: center;
+        margin-bottom: 0.5rem;
+    }
 `;
 
 export const Wrapper = styled.div`
