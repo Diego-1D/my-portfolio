@@ -16,6 +16,8 @@ import AntDesignIcon from '../Images/Icons/antDesign.svg';
 import StyledComponentsIcon from '../Images/Icons/styledComponents.svg';
 import SassIcon from '../Images/Icons/sass.svg';
 import TypeScriptIcon from '../Images/Icons/typescript.svg';
+import TailwindCssIcon from '../Images/Icons/tailwindcss.png'
+import BootStrapIcon from '../Images/Icons/bootstrap.png'
 
 export const Projects = [
     {
@@ -125,6 +127,16 @@ export const Technologies = [
     },
     {
         key: 9,
+        icon: TailwindCssIcon,
+        name: 'TailwindCss'
+    },
+    {
+        key: 10,
+        icon: BootStrapIcon,
+        name: 'BootStrap'
+    },
+    {
+        key: 11,
         icon: FirebaseIcon,
         name: 'Firebase'
     },
